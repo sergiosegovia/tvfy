@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #3BB1DC;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header,
+.navbar {
+  background: #000;
+  height: 50px;
+}
+
+.navbar .brand {
+  float: left;
+  padding: .4em 1em;
+}
+
+.navbar .brand a {
+  font-size: 2em;
+  color: #3BB1DC;
+}
+
+.navbar .navbar-nav {
+  float: right;
+}
+
+.navbar .navbar-nav ul {
+  list-style: none;
+}
+
+.navbar .navbar-nav ul li {
+  display: inline-block;
+  padding: 1em 0;
+}
+
+.navbar .navbar-nav ul li a {
+  padding: 1em;
+  color: #3BB1DC;
+}
+
+.navbar .navbar-nav ul li a:hover {
+  color: #fff;
+}
+
+.hero {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+  color: #3BB1DC;
+}
+
+.hero .search-shows {
+  margin-top: 1em;
+}
+
+.hero .search-shows input {
+  width: 43%;
+  height: 2em;
+  padding-left: .5em;
+  font-size: 1em;
+  border: solid 1px #C5C5C5;
+}
+
+.hero .search-shows input:focus,
+.hero .search-shows .search-button:focus {
+  outline: #3BB1DC auto 3px;
+}
+
+.hero .search-shows .search-button {
+  font-size: 1em;
+  color: white;
+  background: #3bb1dc;
+  border: none;
+  padding: .5em 1em;
+}
+
+.tv-shows {
+  width: 80%;
+  min-height: 80vh;
+  margin: 0 auto;
+}
+
+.tv-show {
+  overflow: auto;
+  border: solid 1px #C5C5C5;
+  margin-bottom: 1em;
+}
+
+.tv-show .tv-show-img {
+  float: left;
+  margin-right: 1em;
+}
+
+.tv-show .tv-show-data {
+  width: 77%;
+  float: right;
+  padding: 1em 0;
+}
+
+.tv-show .tv-show-desc {
+  padding-top: 1em;
+}
+
+/* Footer */
+footer .top-footer {
+  margin-top: 2em;
+  background: #3bb1dc;
+  width: 100%;
+  height: 2em;
+  color: #fff;
+}
+
+footer .top-footer p {
+  padding: .5em;
+}
+
+footer .bottom-footer {
+  background: #000;
+  width: 100%;
+  height: 6em;
+}
+
+/* Helpers */
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
